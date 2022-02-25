@@ -1,7 +1,7 @@
 name: food_delivery
 description: A new Flutter project.
 
-publish_to: 'none' 
+publish_to: 'none'
 
 version: 1.0.0+1
 
@@ -10,12 +10,12 @@ environment:
 
 dependencies:
   cupertino_icons: ^1.0.2
+  dots_indicator: ^2.1.0
   flutter:
     sdk: flutter
   google_fonts: ^2.3.1
 
 dev_dependencies:
-
   flutter_lints: ^1.0.0
   flutter_test:
     sdk: flutter
@@ -25,15 +25,15 @@ flutter:
 
   assets:
     - assets/image/
-  
+
   fonts:
-      - family: Roboto
-        fonts:
-          - asset: assets/font/Roboto-Regular.ttf
-            weight: 400
-          - asset: assets/font/Roboto-Medium.ttf
-            weight: 500
-          - asset: assets/font/Roboto-Bold.ttf
-            weight: 700
-          - asset: assets/font/Roboto-Black.ttf
-            weight: 900
+    - family: Roboto
+      fonts:
+        - asset: assets/font/Roboto-Regular.ttf
+          weight: 400
+        - asset: assets/font/Roboto-Medium.ttf
+          weight: 500
+        - asset: assets/font/Roboto-Bold.ttf
+          weight: 700
+        - asset: assets/font/Roboto-Black.ttf
+          weight: 900
