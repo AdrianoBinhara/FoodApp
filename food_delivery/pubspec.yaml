@@ -1,7 +1,7 @@
 name: food_delivery
 description: A new Flutter project.
 
-publish_to: 'none'
+publish_to: 'none'  
 
 version: 1.0.0+1
 
@@ -13,7 +13,9 @@ dependencies:
   dots_indicator: ^2.1.0
   flutter:
     sdk: flutter
+  get: ^4.6.1
   google_fonts: ^2.3.1
+
 
 dev_dependencies:
   flutter_lints: ^1.0.0
